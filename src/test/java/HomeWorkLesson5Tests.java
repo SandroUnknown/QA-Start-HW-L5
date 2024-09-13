@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byTagAndText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class HomeWorkLesson5 {
+public class HomeWorkLesson5Tests {
 
     @BeforeAll
     static void beforeAll() {
