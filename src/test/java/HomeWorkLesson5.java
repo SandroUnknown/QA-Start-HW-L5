@@ -18,7 +18,7 @@ public class HomeWorkLesson5 {
     void openEnterprisePageTest() {
         open("https://github.com");
         $(byTagAndText("button", "Solutions")).hover();
-        $("[href='https://github.com/enterprise']").click();
+        $("div.HeaderMenu-dropdown [href='https://github.com/enterprise']").click();    //можно и без поиска "div.HeaderMenu-dropdown", но так я точно уверен, что ссылку ищет в нужном месте
         $("h1#hero-section-brand-heading").shouldHave(text("The AI-powered developer platform"));
     }
 }
