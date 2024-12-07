@@ -7,6 +7,8 @@
 - [x] На главной странице `Github` выберите `Меню` -> `Solutions` -> `Enterprize` (с помощью команды `hover` для Solutions);
 - [x] Убедитесь, что загрузилась нужная страница (например, что заголовок "The Al-powered developer platform.").
 
+</br>
+
 ### Задание 2 (опционально):
 - [x] Запрограммируйте `Drag&Drop` с помощью Selenide.actions();
 - [x] Откроейте `https://the-internet.herokuapp.com/drag_and_drop`;
